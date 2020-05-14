@@ -21,7 +21,7 @@
 }
 .App-background{
  
-  background-image:url("images/PNGPIX-COM-AutoZone-Logo-PNG-Transparent.png");
+  background-image:url("imgs/PNGPIX-COM-AutoZone-Logo-PNG-Transparent.png");
   background-repeat: no-repeat;
   background-size: 100% 20%;
   align-content: flex-start;
@@ -91,7 +91,7 @@
   top:100px;
 }
 #img1{
-  background-image: url("images/aircleaner.jpg");
+  background-image: url("imgs/aircleaner.jpg");
 }
 .right{
   float: right;
@@ -99,6 +99,9 @@
   left:610px;
   top:200px;
  
+}
+.floatright{
+  float: right;
 }
 .left{
   float: left;
@@ -143,4 +146,20 @@ a{
   font-size:17px;
   font-weight: bold;
   color: coral;
+}
+.errorstyle{
+  font-size:14px;
+  color: crimson;
+}
+.plain-text{
+  font-size: 16px;
+}
+
+.col-width{
+  width:450px;
+}
+.table-center{
+  position: relative;
+  left:380px;
+  top:20px;
 }
